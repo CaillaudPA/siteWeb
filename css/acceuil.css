@@ -1,0 +1,15 @@
+#ulBarreNavigation>li {
+	display: inline-block;
+}
+
+
+#menuDerouler {
+	position: left;
+}
+
+
+#barreNavigation{
+	position: fixed;
+	width: 100%;
+	height: auto;
+}
