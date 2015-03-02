@@ -1,0 +1,15 @@
+#menuDeroulerSlide{
+	display: none;
+	border: 1px solid black;
+	margin: 2px;
+	padding: 2px;
+	color: red;
+	width: 50%;
+	max-width: 50%;
+}
+
+.itemMenu{
+	border: 1px dashed black;
+	list-style-type: none;
+}
+
