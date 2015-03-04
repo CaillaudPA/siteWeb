@@ -1,3 +1,4 @@
+
 #menuDeroulerSlide{
 	display: none;
 	border: 1px solid black;
@@ -11,5 +12,22 @@
 .itemMenu{
 	border: 1px dashed black;
 	list-style-type: none;
+}
+
+
+#ulBarreNavigation>li {
+	display: inline-block;
+}
+
+
+#menuDerouler {
+	position: left;
+}
+
+
+#barreNavigation{
+	position: fixed;
+	width: 100%;
+	height: auto;
 }
 
