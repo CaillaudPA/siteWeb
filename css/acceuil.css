@@ -1,27 +1,32 @@
 
+/*/////////////////////////////////////
+
+	DEBUT CSS MENU DE NAVIGATION 
+
+/////////////////////////////////////*/
 #menuDeroulerSlide{
 	display: none;
 	border: 1px solid black;
-	margin: 2px;
-	padding: 2px;
+	font-weight: bold;
 	color: red;
 	width: 50%;
 	max-width: 50%;
+	background-color: #f0f0f0;
+	position: fixed;
+	
 }
 
 .itemMenu{
-	border: 1px dashed black;
 	list-style-type: none;
+ 	border: 1px solid black;
+ 	height: 25px;
+ 	
 }
 
 
 #ulBarreNavigation>li {
 	display: inline-block;
-}
 
-
-#menuDerouler {
-	position: left;
 }
 
 
@@ -29,5 +34,44 @@
 	position: fixed;
 	width: 100%;
 	height: auto;
+	margin-bottom: 5px;
 }
+
+nav{
+	background-color: #facc45;
+	
+}
+
+ul {
+  margin-left:0;
+  padding-left:0;
+  text-align: center; 
+}
+
+ nav > ul > li{
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+ 	padding: 5px;
+
+ }
+
+ #liImgMenuDerouler{
+ 	position: static;
+ 	float: left;
+ }
+
+#divTitreBarreNavigation{
+ 	margin: auto;
+ }
+
+ #liImgMenuRecherche{
+ 	position: static;
+ 	float: right;
+ }
+
+ /*/////////////////////////////////////
+
+	FIN CSS MENU DE NAVIGATION 
+
+/////////////////////////////////////*/
 

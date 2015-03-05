@@ -1,4 +1,6 @@
 $('document').ready(function(){
+
+	//jQuery en rapport avec le menu NAV
 	//Définir toutes les variables
 	var menuDerouler = $('#menuDerouler');
 
@@ -10,7 +12,11 @@ $('document').ready(function(){
 		}
 	})
 
-	//Fonction
+	//Supprimer le float après le menu
+	$('nav').nextAll().css('clear', 'both');
+	
+
+
 
 
 });
