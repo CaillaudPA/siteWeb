@@ -4,13 +4,19 @@
 	DEBUT CSS MENU DE NAVIGATION 
 
 /////////////////////////////////////*/
+
+body{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 #menuDeroulerSlide{
 	display: none;
 	border: 1px solid black;
 	font-weight: bold;
 	color: red;
-	width: 50%;
-	max-width: 50%;
 	background-color: #f0f0f0;
 	position: fixed;
 	
@@ -19,22 +25,17 @@
 .itemMenu{
 	list-style-type: none;
  	border: 1px solid black;
- 	height: 25px;
- 	
 }
 
 
 #ulBarreNavigation>li {
 	display: inline-block;
-
 }
 
 
 #barreNavigation{
 	position: fixed;
 	width: 100%;
-	height: auto;
-	margin-bottom: 5px;
 }
 
 nav{
@@ -52,7 +53,6 @@ ul {
  	margin-left: 5px;
  	margin-right: 5px;
  	padding: 5px;
-
  }
 
  #liImgMenuDerouler{
@@ -67,6 +67,10 @@ ul {
  #liImgMenuRecherche{
  	position: static;
  	float: right;
+ }
+
+ #separation{
+
  }
 
  /*/////////////////////////////////////
