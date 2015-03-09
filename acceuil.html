@@ -3,15 +3,14 @@
 	<head>
 	 	
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-		 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-
-
 
 		<script type="text/javascript" src="js/acceuil.js"></script>
 		<link rel= "stylesheet" type= "text/css" href= "css/acceuil.css" />
@@ -47,7 +46,7 @@
 				</li>
 				
 				<li id="liImgMenuRecherche">
-					<img id="menuRecherche" src="image/glyphicons/glyphiconsSearch.png">	
+					<img id="menuRecherche" src="image/glyphicons/glyphiconsSearch.png" onclick="afficherInputRecherche()">	
 				</li>
 			</ul>
 
@@ -69,10 +68,9 @@
 		<div id="separation"></div>
 
 			
-<div data-role="fieldcontain">
-    <label for="search-2">Search Input:</label>
-    <input type="search" name="search-2" id="search-2" value="" />
-</div>
+		<div data-role="fieldcontain" id="rechercheDiv">
+		    <input type="search" name="recherche" id="recherche" value="" />
+		</div>
 
 
 		<section id="sectionImage">

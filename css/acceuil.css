@@ -15,6 +15,14 @@ body{
 	margin:0;
 }
 
+#rechercheDiv{
+	display: none;
+}
+
+#recherche{
+	display: none;
+}
+
 #menuDeroulerSlide{
 	display: none;
 	border: 1px solid black;
