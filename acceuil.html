@@ -21,18 +21,16 @@
 	</head>
 
 	<body>
-
-	<div data-role="page" id="pageone">
-  <div data-role="header">
-  	<h1>Musée des Beaux-Arts de Nantes</h1>
-	<div data-role="navbar">
-      <ul>
-        <li><a href="#" data-icon="grid" data-iconpos="top">Menu</a></li>
-        <li><a href="#">Site de Nantes</a></li>
-        <li><a href="#" data-icon="search" data-iconpos="top">Recherche</a></li>
-      </ul>
-    </div>
-  </div>
+	  <div data-role="header">
+	  	<h1>Musée des Beaux-Arts de Nantes</h1>
+		<div data-role="navbar">
+	      <ul>
+	        <li><a href="#" data-icon="grid" data-iconpos="top">Menu</a></li>
+	        <li><a href="#">Site de Nantes</a></li>
+	        <li><a href="#" data-icon="search" data-iconpos="top" id="menuRecherche" onclick="afficherInputRecherche()">Recherche</a></li>
+	      </ul>
+	    </div>
+	  </div>
   <!-- 		
 		<nav id="barreNavigation">
 
@@ -67,36 +65,36 @@
 
 		<div id="separation"></div>
 
+				
+			<div data-role="fieldcontain" id="rechercheDiv">
+			    <input type="search" name="recherche" id="recherche" onblur="enleverInputRecherche()" value="" />
+			</div>
+
+
+			<section id="sectionImage">
 			
-		<div data-role="fieldcontain" id="rechercheDiv">
-		    <input type="search" name="recherche" id="recherche" value="" />
-		</div>
+				<a href="http://www.lemasc.fr/exposition-sables-olonne/actualite-actu/de-kandinsky-a-kapoor-les-chemins-de-l-abstraction-collections-du-musee-des-beaux-arts-de-nantes/">
+					<img id="imgPrincipal1" src="image/imagePrincipale/carrousseAbbaye.jpg">
+				</a>
 
 
-		<section id="sectionImage">
+				<a href="">
+					<img id="imgPrincipal2" src="image/imagePrincipale/carrousselVisite.jpg">
+				</a>
 
-			<img src="image/imagePrincipale/carrousseAbbaye.jpg">
-			<img src="image/imagePrincipale/carrousselVisite.jpg">
-			<img src="image/imagePrincipale/jeunePublic.jpg">
-			<img src="image/imagePrincipale/restauration_howard02ter.jpg">
-			<img src="image/imagePrincipale/scolaires_follejournee.jpg">
-			
+				<a href="">
+					<img id="imgPrincipal3" src="image/imagePrincipale/jeunePublic.jpg">
+				</a>
+				
+				<a href="http://www.museedesbeauxarts.nantes.fr/cache/offonce/Accueil/pid/24136;jsessionid=710E1D0D6F1F2E5B63FEDBD7DD848407">
+					<img id="imgPrincipal4" src="image/imagePrincipale/restauration_howard02ter.jpg">
+				</a>
+				
+				<a href="http://www.museedesbeauxarts.nantes.fr/Accueil/Publics/Scolaires">
+					<img id="imgPrincipal5" src="image/imagePrincipale/scolaires_follejournee.jpg">
+				</a>
+			</section>
 
-		</section>
-
-
-		
-
-		
-
-		
-
-
-	</div>
-
-	</body>
-
-	<footer>
 		<div>
 			<table>
 				<td>
@@ -127,5 +125,5 @@
 				</td>
 			</table>
 		</div>
-	</footer>
+	</body>
 </html>
