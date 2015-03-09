@@ -4,15 +4,12 @@
 	DEBUT CSS MENU DE NAVIGATION 
 
 /////////////////////////////////////*/
-head{
+
+body{
 	margin-left: 0;
 	margin-right: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-}
-
-body{
-	margin:0;
 }
 
 #menuDeroulerSlide{
@@ -21,8 +18,7 @@ body{
 	font-weight: bold;
 	color: red;
 	background-color: #f0f0f0;
-	z-index: 2;
-	position: absolute;
+	position: fixed;
 	
 }
 
@@ -38,12 +34,11 @@ body{
 
 
 #barreNavigation{
-	/*position: fixed;*/
+	position: fixed;
 	width: 100%;
 }
 
 nav{
-
 	background-color: #facc45;
 	
 }
