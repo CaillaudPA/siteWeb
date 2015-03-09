@@ -50,7 +50,7 @@ function redimentionnerImage(){
 	}
 
 
-	alert(newWidth+" | "+newHeight);
+	//alert(newWidth+" | "+newHeight);
 }
 
 

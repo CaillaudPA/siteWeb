@@ -52,10 +52,13 @@ body{
 	width: 100%;
 }
 
+#sectionImage{
+	text-align: center;
+}
+
 nav{
 
-	background-color: #facc45;
-	
+	background-color: #facc45;	
 }
 
 ul {
