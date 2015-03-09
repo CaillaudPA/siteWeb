@@ -2,7 +2,7 @@ hauteurImgPrincipalOrigine = 943;
 largeurImgPrincipalOrigine = 400;
 
 $('document').ready(function(){
-
+	redimentionnerImage();
 	$(window).resize(function() {
 		redimentionnerImage();
 	});
@@ -49,13 +49,18 @@ function redimentionnerImage(){
 		newHeight = hauteurImgPrincipalOrigine;
 	}
 
+	var coord = redimensionImage(largeurImgPrincipalOrigine,hauteurImgPrincipalOrigine,newWidth,newHeight);
 
-	//alert(newWidth+" | "+newHeight);
+
+	$("a [id*=imgPrincipal]").each(function (){
+		this.setAttribute("width",coord[1]);
+		this.setAttribute("height",coord[0]);
+	});
 }
 
 
 
-function redimimage(largeur, hauteur, largeurc, hauteurc) {
+function redimensionImage(largeur, hauteur, largeurc, hauteurc) {
     coord=new Array(2);
     ratio=hauteur/largeur;
     //si l'image réelle est plus petite en largeur et hauteur
