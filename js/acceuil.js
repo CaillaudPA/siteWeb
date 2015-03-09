@@ -20,3 +20,13 @@ $('document').ready(function(){
 
 
 });
+
+function afficherInputRecherche(){
+	$('#recherche').css('display', 'inline');
+	$('#rechercheDiv').css('display', 'inline');
+}
+
+function enleverInputRecherche(){
+	$('#recherche').css('display', 'none');
+	$('#rechercheDiv').css('display', 'none');
+}
