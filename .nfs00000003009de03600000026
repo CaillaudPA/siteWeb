@@ -93,30 +93,12 @@ Nullam in dolor eget orci sagittis mattis sit amet at lectus. Sed eget porttitor
 		<div>
 			<table>
 				<td>
-					<th>
-						<a href=""><img src="image/reseauSociaux/facebook_rond.png"></a>
-					</th>
-					<th>
-						<a href=""><img src="image/reseauSociaux/twitter-rond2.png"></a>
-					</th>
-					<th>
-						<a href=""><img src="image/reseauSociaux/dailymotion.png"></a>
-					</th>
-					<th>
-						<a href=""><img src="image/reseauSociaux/googleplus-rond.png"></a>
-					</th>
-					<th>
-						<a href=""><img src="image/reseauSociaux/pinterest-logo.jpeg"></a>
-					</th>
-					<th>
-						<a href=""><img src="image/reseauSociaux/flick.JPG"></a>
-					</th>
-					<th>
-						<a href=""><img src="image/reseauSociaux/youtube.png"></a>
-					</th>
-					<th>
-						<a href=""><img src="image/reseauSociaux/ThingLink_logo.jpg"></a>
-					</th>
+					<th>a</th>
+					<th>b</th>
+					<th>c</th>
+					<th>d</th>
+					<th>e</th>
+					<th>f</th>
 				</td>
 			</table>
 		</div>
