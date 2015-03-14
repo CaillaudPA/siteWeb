@@ -1,5 +1,6 @@
 hauteurImgPrincipalOrigine = 943;
 largeurImgPrincipalOrigine = 400;
+ratioImgPrincipal = hauteurImgPrincipalOrigine/largeurImgPrincipalOrigine;
 
 $('document').ready(function(){
 	redimentionnerImage();
@@ -16,6 +17,7 @@ function afficherInputRecherche(){
 	$('#rechercheDiv').css('display', 'inline');
 	$("recherche").focus();}
 	
+
 }
 
 // Inutile ?
@@ -25,9 +27,9 @@ function enleverInputRecherche(){
 }
 
 function redimentionnerImage(){
-	newHeight = $(window).width();
 	newWidth = $(window).width();
-
+	newHeight = $(window).width();
+	
 	if(newWidth > largeurImgPrincipalOrigine){
 		newWidth = largeurImgPrincipalOrigine;
 	}
@@ -64,5 +66,6 @@ function redimensionImage(largeur, hauteur, largeurc, hauteurc) {
     }
     coord[0]=largeur;
     coord[1]=hauteur;
+    ratioImgPrincipal = hauteur/largeur
     return(coord);
 }

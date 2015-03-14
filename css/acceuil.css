@@ -23,8 +23,6 @@ body{
 
 
 
-
-
 #rechercheDiv{
 	display: none;
 }
@@ -38,14 +36,14 @@ ul#ulMenuNavigation > li{
 }
 
 #menuDeroulerSlide{
-	display: none;
 	border: 1px solid black;
-	font-weight: bold;
-	color: red;
+	color: black;
 	background-color: #f0f0f0;
-	z-index: 2;
-	position: absolute;
 	
+}
+
+#menuNavigation{
+	width: 15%;
 }
 
 .itemMenu{
