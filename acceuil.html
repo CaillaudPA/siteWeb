@@ -23,21 +23,33 @@
 	<body>
 
 
-	
+	<h1 id="nomSite">Musée des Beaux-Arts de Nantes</h1>
+	 
 	  <div data-role="header">
-	  	<h1>Musée des Beaux-Arts de Nantes</h1>
+	  	
 
 		<div data-role="navbar">
 	      <ul >
 	        <li><a href="#menuNavigation" data-icon="grid" data-iconpos="top"
 	        		class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a></li>
-	        <li><a href="#" data-icon="star">Ville de Nantes</a></li>
-	        <li><a href="#" data-icon="search" data-iconpos="top" onclick="afficherInputRecherche()">Recherche</a></li>
+	        <li><a href="http://www.nantes.fr" target="_blank" data-icon="star">Ville de Nantes</a></li>
+	        <li><a id="loupeRecherche" href="#" data-icon="search" data-iconpos="top" onclick="afficherInputRecherche()">Recherche</a></li>
 	      </ul>
 	    </div>
 
-	    <div data-role="panel" id="menuNavigation" data-display="overlay" >
-	    	BOUJOURRRRR
+	    <div id="menuNavigation" data-role="panel" class="jqm-nav-panel jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="c">    	
+	    
+		    	
+		   	<ul id="ulMenuNavigation" data-role="listview" data-theme="d" data-divider-theme="d" data-icon="false" data-global-nav="demos" class="jqm-list">
+		    	<li><a href="#">Collections</a></li>
+		    	<li><a href="intro/">Expositions</a></li>
+         		<li><a href="examples/">Activités</a></li>
+        		<li><a href="faq/">Agenda</a></li>
+        		<li><a href="faq/">Publics</a></li>
+        		<li><a href="faq/">Pratique</a></li>
+        		<li><a href="faq/">Presse</a></li>
+        		<li><a href="faq/">Projet musée</a></li>
+		    </ul>
 	    </div>
  
   <!-- 		

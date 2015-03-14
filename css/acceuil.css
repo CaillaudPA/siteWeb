@@ -15,6 +15,14 @@ body{
 	margin:0;
 }
 
+#nomSite{
+	margin: auto;
+	text-align: center;
+	background-color: #F0F0F0;
+}
+
+
+
 
 
 #rechercheDiv{
@@ -23,6 +31,10 @@ body{
 
 #recherche{
 	display: none;
+}
+
+ul#ulMenuNavigation > li{
+	font-size: 1px;
 }
 
 #menuDeroulerSlide{
